@@ -1,1 +1,92 @@
+li{list-style: none;
+}
+.header {
+  background-color: skyblue;
+  color:  white;
+  height: 60px;
+}
+.header-logo {
+  float: left;
+  font-size: 25px;
+  padding: 10px 40px;
+}
+.header-list li {
+  float: left;
+  padding: 20px 50px;
+}
+#example {
+  position: relative;
+}
+
+#example p { 
+  position: absolute;
+ color:white;
+text-decoration: none;
+  top: 20px;
+  left:40px;
+}
+
+
+h1{
+  font-weight: normal;
+  font-size: medium;
+}
+.one{
+  background-color:rgb(185, 192, 170);
+  text-align:center;
+  opacity: 0.7; 
+}
+.one p{
+  border-bottom: 1px solid white;
+}
+
+.link_button{
+font-weight: bold;
+text-decoration: none;
+background-color: skyblue;
+color: white;
+padding:5px 10px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+}
+.contact-form{
+  opacity: 0.7; 
+}
+.contact-form:hover{
+  opacity: 1.0; 
+}
+.contact-submit{
+  background-color:rgb(185, 192, 170);
+  color:white;
+  border-radius:30px;
+  cursor: pointer;
+}
+
+.center{
+  display: flex;
+}
+.center-1{flex:1;background-color:pink;}
+.center-2{flex:4;background-color:orange;}
+.center-3{flex:7;background-color:yellow;}
+
+
+.footer{
+  background-color: skyblue;
+  color:  white;
+  height: 80px;
+  opacity: 0.7;
+}
+.last{
+  float: left;
+  background-color: skyblue;
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke:0.2px #000;
+}
+.footer-list{
+  float: right;
+  background-color: skyblue;
+  -webkit-text-stroke:0.2px #000;
+}
 
